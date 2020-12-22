@@ -1,6 +1,6 @@
---by blameShxrk
+--by BlameShxrk
 
--- Instances:
+--subscribe to Randsom Exploits on yt
 
 local RandsomWarev21 = Instance.new("ScreenGui")
 local Frame = Instance.new("Frame")
@@ -75,6 +75,9 @@ CarCrushers.Font = Enum.Font.SciFi
 CarCrushers.Text = "Car Crushers"
 CarCrushers.TextColor3 = Color3.fromRGB(0, 0, 0)
 CarCrushers.TextSize = 14.000
+CarCrushers.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://pastebin.com/raw/UmkD1gyr'))()
+end)
 
 UICorner_4.CornerRadius = UDim.new(0.5, 0)
 UICorner_4.Parent = CarCrushers
@@ -88,7 +91,9 @@ VehicleSimulator.Font = Enum.Font.SciFi
 VehicleSimulator.Text = "Vechile simulator"
 VehicleSimulator.TextColor3 = Color3.fromRGB(0, 0, 0)
 VehicleSimulator.TextSize = 14.000
-
+VehicleSimulator.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://pastebin.com/raw/yTpB26k5'))()
+end)
 UICorner_5.CornerRadius = UDim.new(0.5, 0)
 UICorner_5.Parent = VehicleSimulator
 
@@ -150,7 +155,7 @@ OWLHUB.TextColor3 = Color3.fromRGB(0, 0, 0)
 OWLHUB.TextSize = 14.000
 OWLHUB.TextWrapped = true
 OWLHUB.MouseButton1Down:connect(function()
-	loadstring(game:HttpGet('https://pastebin.com/raw/yTpB26k5'))()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/HollowCheats/OwlHub/master/OwlHub.txt'))()
 end)
 UICorner_9.CornerRadius = UDim.new(0.5, 0)
 UICorner_9.Parent = OWLHUB
